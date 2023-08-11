@@ -1,0 +1,110 @@
+/** HEADER **/
+#header-nav {
+  background-color: #f4c2c2;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 {
+  font-family:'Nunito' !important;
+  color: #484848;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #FFE8E8;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #A84848;
+}
+
+ul#nav-list{
+  color: black;
+}
+/* END HEADER */
+
+.row {
+  margin-bottom: 15px;
+}
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #FDFFFC;
+  font-family:'Nunito' !important;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+p#title {
+  color: black;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+p#p1 {
+  color: black; 
+  text-align: center;
+}
+
+p#p2 {
+  color: black; 
+  text-align: left;
+}
+
+div#main-content {
+position: relative;
+}
+
+div#box-desc {
+  background-color: #FFE8E8;
+  border: 2px solid #A84848;
+  text-align: center;
+  font-size: 1.2em;
+  overflow: hidden;
+  margin: 0 auto 15px;
+
+
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  div#box-desc {
+    height: 675px;
+  }
+}
+
+/********** Medium devices only **********/
+
+@media (min-width: 577px) and (max-width: 991px) {
+  div#box-desc {
+    height: 600px;
+  
+  }
+}
+/********** Small devices only **********/
+
+@media (max-width: 576px) {
+  div#box-desc {
+    height: 400px;
+
+  }
+}
